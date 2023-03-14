@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="myCss.css"/>
+    </head>
+
+    <body>
+
+
+        <div id="mobile-menu">
+            
+            <p>简介</p>
+            <p>业务</p>
+            <p>员工</p>
+            <p>ESG</p>
+            <p>投资者</p>
+            <p>媒体</p>
+
+            <div>
+                <span>简体</span>
+                <span>繁体</span>
+                <span>English</span>
+            </div>
+        </div>
+
+        <div id="main-container">
+            <div id="main-container-fade"></div>
+
+            <div id="top-banner">
+                <div id="tencent-logo">
+                    <img src="image/menu_logo.png">
+                </div>
+
+                <div id="menu-button">
+                    <img src="image/icon_menu.png">
+                </div>
+
+                <ul id="item-container">
+                    <li class="item-container-items">简介</li>
+                    <li class="item-container-items">业务</li>
+                    <li class="item-container-items">员工</li>
+                    <li class="item-container-items">ESG</li>
+                    <li class="item-container-items">投资者</li>
+                    <li class="item-container-items">媒体</li>
+                    <li class="item-container-items">简</li>
+                    <li class="item-container-items">繁</li>
+                    <li class="item-container-items">EN</li>
+                </ul>
+
+
+            </div>
+
+            <div id="top-menu">
+
+                <div id="top-banner-menu">
+                    <div id="tencent-logo-menu">
+                        <img src="image/tencent_logo.png">
+                    </div>
+    
+                    <div id="menu-button-menu" onclick="menu()">
+                        <img src="image/icon_menu.png">
+                    </div>
+    
+                    <ul id="item-container-menu">
+                        <li class="item-container-menu-items">简介</li>
+                        <li class="item-container-menu-items">业务</li>
+                        <li class="item-container-menu-items">员工</li>
+                        <li class="item-container-menu-items">ESG</li>
+                        <li class="item-container-menu-items">投资者</li>
+                        <li class="item-container-menu-items">媒体</li>
+                        <li class="item-container-menu-items">简</li>
+                        <li class="item-container-menu-items">繁</li>
+                        <li class="item-container-menu-items">EN</li>
+                    </ul>
+    
+    
+                </div>
+
+                <div id="top-menu-items-down-container">
+                    <div id="top-menu-items-down-content">
+                        <div class = "top-menu-items-down">
+                            <p>公司简介</p>
+                            <p>愿景及使命</p>
+                            <p>发展历程</p>
+                            <p>业务架构</p>
+                            <p>管理团队</p>
+                            <p>董事会成员</p>
+                            <p>企业文化</p>
+                            <p>办公地点</p>
+                        </div>
+        
+                        
+                        <div class = "top-menu-items-down">
+                            <p>面向用户</p>
+                            <p>面向企业</p>
+                            <p>创新科技</p>
+                        </div>
+        
+                        <div class = "top-menu-items-down">
+                            <p>人才发展</p>
+                            <p>腾讯学堂</p>
+                            <p>工作环境</p>
+                            <p>员工活动</p>
+                        </div>
+    
+                        <div class = "top-menu-items-down">
+                            <p>环境</p>
+                            <p>社会</p>
+                            <p>治理</p>
+                            <p>ESG评级</p>
+                            <p>报告</p>
+                        </div>
+    
+                        <div class = "top-menu-items-down">
+                            <p>季度业绩及投资者新闻</p>
+                            <p>公告及财务报告</p>
+                            <p>业绩电话会及投资者日历</p>
+                            <p>投资者工具包</p>
+                            <p>证券及债券信息</p>
+                            <p>环境,社会及管治</p>
+                        </div>
+    
+                        <div class = "top-menu-items-down">
+                            <p>企业动态</p>
+                            <p>财务新闻</p>
+                            <p>腾讯视角</p>
+                            <p>媒体资料库</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div id="main-word-container">
+                <h1 id="word-title">2023微信公开课Pro</h1>
+                <span id="word-content">点击会看腾讯年度旗舰活动"2023微信公开课PRO-在场</span>
+                <img src="image/icon_arrow_r.png"  id="word-content-arrow-left">
+                <img src="image/icon_arrow_r.png"  id="word-content-arrow-right">
+
+                <div id="dots-container">
+                    <div class="dots" onclick="jumpToIndexOfImage(1)"></div>
+                    <div class="dots" onclick="jumpToIndexOfImage(2)"></div>
+                    <div class="dots" onclick="jumpToIndexOfImage(3)"></div>
+                    <div class="dots" onclick="jumpToIndexOfImage(4)"></div>
+                    <div class="dots" onclick="jumpToIndexOfImage(5)"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="useful-box"></div>
+
+
+
+        <div id="latest-news-title">
+            <div id="line"></div>
+            <h1>最新动态</h1>
+        </div>
+
+        <div id="latest-news">
+            <div id="latest-news-box1">
+                <div id ="news-image-fade1">
+                    <img src="image/086abea826ad447e0a7a3977ee517fcd.png!article.png">
+                </div>
+                <div id="news-word1">
+                    <p>2023.03.02</p>
+                    <h2>马化腾：科技向善，就是要用科技能力更好地去关心人</h2>
+                    <span>腾讯主要创办人、董事会主席兼首席执行官马化腾近期回顾“科技向善”的历程和企业的社会价值，写下自己的思考。</span>
+                </div>
+                <div id="news-image-fade2">
+                    <div><img src="image/68168ce2492c64b0d4d4c70892695655.png!article.png"></div>
+                    <div id="news-word2">
+                        <p>2023.02.17</p>
+                        <h2>贵州女孩用微信协助土耳其震后救援</h2>
+                        <span>一名来自中国贵州的女生成为土耳其地震救援沟通的重要骨干，协助中国救援队在震区更好地开展工作。</span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="latest-news-box2">
+                <div id="news-image-fade3">
+                     <div><img src="image/18e51620f87d83c3e2a76b1a082861eb.jpg!article.png"></div>
+                    
+                     <div class="news-word-container ">
+                        <p>2023.03.02</p>
+                        <h2>旅游业的未来：随时随地体验沉浸式文旅</h2>
+                        <span>基于腾讯视频自主研发的混合现实（MR）虚拟交互技术，我们推出了MR虚实融合文旅解决方案，使博物馆、地标性遗址或自然景点都能以更低的成本提供引人入胜的混合实境体验。</span>
+                    </div>
+                </div>
+                <div id="news-image-fade3">
+                    <div><img src="image/7771b8cc0839d8cc488abb5fcb0797c6.jpg!article.png"></div>
+                    <div class="news-word-container news-word-container2">
+                        <p>2023.02.02</p>
+                        <h2>腾讯青少年编程与人工智能活动为百大编程新星提供一对一创作指导</h2>
+                        <span>为增进青少年对编程的认识，腾讯推出了“全国青少年编程与人工智能计划”。</span>
+                    </div>
+               </div>
+               <div id="news-image-fade3">
+                    <div style="height: 248.64px;"><img src="image/ba7dfc6d87cc9313288b61741d4c623c.png!article.png"></div>
+                    <div class="news-word-container news-word-container3">
+                        <p>2023.01.17</p>
+                        <h2>微信支付和WeChat Pay HK双钱包携手逾16000家澳门商户迎接旅游业复苏</h2>
+                        <span>超过16000家澳门热门商户已接入微信支付和WeChat Pay HK，游客将享受更简单、更快捷、更安全的支付体验。</span>
+                    </div>
+                </div>
+
+
+            </div>
+            
+            <div id="latest-news-box3">
+                <div id="news-content-container1">
+                    <div><img src="image/banner-wwl-2.jpg"></div>
+                </div>
+                <div id="news-word1" class="news-word1-change">
+                    <p>2023.05.01</p>
+                    <h2>为她力量喝彩</h2>
+                    <span>今年国际妇女节期间，我们推出#WomenWhoLead专题文章，分享腾讯七位女性领袖的事业与生活心得。</span>
+                </div>
+
+                <div id="news-content-container2">
+                    <div><img src="image/729b35b0a6c12e3d01e004e9370a509c.jpg!article.png"></div>
+                    <div class="news-word-container news-word-container-change" >
+                        <p>2023.01.12</p>
+                        <h2>2023年十大数字科技趋势</h2>
+                        <span>腾讯联动百位内外部科学家、技术专家和外部院士专家，连续三年探讨和洞察将会改变世界的重大前沿创新。</span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="latest-news-video-content">
+                <div id="latest-news-video-word">
+                    <img src="image/carbon-neutral-pc.png">
+                    <div id="video-fade-box"></div>
+                    <p>腾讯碳中和目标及行动路线报告</p>
+                    <span>公司承诺不晚于2030年实现自身运营及供应链的全面碳中和，以及100%绿色电力。</span>
+                </div>
+                <div id="latest-news-video">
+                    <img src="image/22ab524369d2bd7c0ab657b8c5696f6d.png!media.png">
+                    <span>腾讯24周年</span>
+                </div>
+            </div>
+        </div>
+
+            
+        <div id="company-show">
+            <div id="company-introduce" class="company-son">
+                <span class="company-son-word">公司简介</span>
+                <img src="image/index_detail_1.jpg" class="company-image">
+            </div>
+
+            <div id="company-culture" class="company-son">
+                <span class="company-son-word">企业文化</span>
+                <img src="image/index_detail_2.jpg">
+            </div>
+
+            <div id="comnpany-location" class="company-son">
+                <span class="company-son-word">办公地点</span>
+                <img src="image/index_detail_3.jpg">
+            </div>
+        </div>
+
+        <div id="active-box">
+            <div id="active-container">
+                <div id="active-box-word">
+
+                    <div class="active-box-word-content" id="active-box-word-content1" onmouseover=changeZIndex1()>
+                        <div class="blue-block"></div>
+                        <h3>连接用户与生活</h3>
+                        <p>让生活更便捷更多彩</p>
+                        <img class="active-box-arrow" src="image/icon_arrow_r.png">
+                    </div>
+                    <div class="active-box-word-content" id="active-box-word-content2" onmouseover=changeZIndex2()>
+                        <div class="blue-block"></div>
+                        <h3>连接企业与科技</h3>
+                        <p>数字化助手，助力产业升级</p>
+                        <img class="active-box-arrow" src="image/icon_arrow_r.png">
+                    </div>
+                    <div class="active-box-word-content" id="active-box-word-content3" onmouseover=changeZIndex3()>
+                        <div class="blue-block"></div>
+                        <h3>连接现在与未来</h3>
+                        <p>探索面向未来的创新科技</p>
+                        <img class="active-box-arrow" src="image/icon_arrow_r.png">
+                    </div>
+                </div>
+
+
+                <div class="active-box-image" id="active-box-image1">
+                    <div class="active-box-image-word">
+                        <img src="image/index_link_1_1.jpg">
+                        <p>通信与社交</p>
+                    </div>
+                    <div class="active-box-image-word">
+                        <img src="image/index_link_1_2.jpg">
+                        <p>数字内容</p>
+                    </div>
+                    <div class="active-box-image-word">
+                        <img src="image/index_link_1_3.jpg">
+                        <p>金融科技服务</p>
+                    </div>
+                    <div class="active-box-image-word">
+                        <img src="image/index_link_1_4.jpg">
+                        <p>工具</p>
+                    </div>
+                </div>
+
+
+                <div class="active-box-image" id="active-box-image2">
+                    <div class="active-box-image-word">
+                        <img src="image/index_link_2_1.jpg">
+                        <p>人工智能</p>
+                    </div>
+                    <div class="active-box-image-word">
+                        <img src="image/index_link_2_2.jpg">
+                        <p>物联网</p>
+                    </div>
+                    <div class="active-box-image-word">
+                        <img src="image/index_link_2_3.jpg">
+                        <p>多媒体</p>
+                    </div>
+                </div>
+
+
+                <div class="active-box-image" id="active-box-image3">
+                    <div class="active-box-image-word">
+                        <img src="image/index_link_3_1.jpg">
+                        <p>人工智能</p>
+                    </div>
+                    <div class="active-box-image-word">
+                        <img src="image/index_link_3_2.jpg">
+                        <p>物联网</p>
+                    </div>
+                    <div class="active-box-image-word">
+                        <img src="image/index_link_3_3.jpg">
+                        <p>多媒体</p>
+                    </div>
+                    <div class="active-box-image-word">
+                        <img src="image/index_link_3_4.jpg">
+                        <p>腾讯探索 </p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div id="active-box-media">
+            <div class="active-box-media-image">
+                <img src="image/index_link_1_1.jpg">
+            </div>
+            <div class="active-box-media-image">
+                <img src="image/index_link_2_3.jpg">
+            </div>
+            <div class="active-box-media-image">
+                <img src="image/index_link_3_1.jpg">
+            </div>
+        </div>
+
+
+        <div id="tencent-move">
+            <div id="tencent-move-image">
+
+                <div id="tencent-move-image-fade-arrow-left" onclick="changeIndexOfConfidenceImage(-1)">  <  </div>
+                <div id="tencent-move-image-fade-arrow-right"onclick="changeIndexOfConfidenceImage(1)"> > </div>
+                <img src="image/index_resp_bg0.png" class="tencent-move-image-content" id="tencent-move-image-content1">
+                <img src="image/index_resp_bg1.jpg" class="tencent-move-image-content" id="tencent-move-image-content2">
+                <img src="image/index_resp_bg2.jpg" class="tencent-move-image-content" id="tencent-move-image-content3">
+                <img src="image/index_resp_bg3.jpg" class="tencent-move-image-content" id="tencent-move-image-content4">
+                <p>全球战疫 一起行动</p>
+                <span>在新冠肺炎疫情之战中，腾讯秉持科技向善，以互联网科技的力量，通过我们的技术和产品为全球战疫提供支持。</span>
+            </div>
+
+            <div id="tencent-move-word">
+                <h4>连接</h4>
+                <h3>责任与信任</h3>
+                <p>聚合微小善行，以科技让世界更美好</p>
+                <img src="image/icon_arrow_r_dark.png">
+
+            </div>
+        </div>
+
+        <div id="connectionTo-container">
+             <div id="connectionTo-word">
+                  <h4>连接</h4>
+                  <h3>人才与发展</h3>
+                 <p>激发活力，助力成长</p>
+                 <img src="image/icon_arrow_r_dark.png">
+                 <img src="image/icon_arrow_r.png" id="connectionTo-arrow-left" onclick="imageChange(-1)">
+                 <img src="image/icon_arrow_r.png" id="connectionTo-arrow-right" onclick="imageChange(1)">
+              </div>
+              <div id="connectionTo-image">
+                    <img src="image/index_develop_bg1.jpg" class="crazy-day">
+                    <img src="image/index_develop_bg2.jpg" class="crazy-day">
+                    <img src="image/index_develop_bg3.jpg" class="crazy-day">
+              </div>
+        </div>
+
+        <div id="footer">
+            <div id="flow-us">
+                <p>关注我们</p>
+                <a><img src="image/icon_wechat.png"></a>
+                <a><img src="image/icon_weibo.png"></a>
+                <a><img src="image/icon_twitter.png"></a>
+                <a><img src="image/icon_in.png"></a>
+                <div id="flow-us-line"></div>
+            </div>
+
+            <div id="footer-main-container">
+                <div id="join-us" class="footer-main-content">
+                    <h4>加入我们</h4>
+                    <p>社会招聘</p>
+                    <p>校园招聘</p>
+                    <p>国际招聘</p>
+                </div>
+                <div id="connect-us" class="footer-main-content">
+                    <h4>联系我们</h4>
+                    <p>客户服务</p>
+                    <p>合作洽谈</p>
+                    <p>腾讯采购</p>
+                    <p>媒体及投资者</p>
+                </div>
+                <div id="law-information" class="footer-main-content">
+                    <h4>法律信息</h4>
+                    <p>服务协议</p>
+                    <p>隐私政策</p>
+                    <p>知识产权</p>
+                </div>
+                <img src="image/tencent_logo.png">
+            </div>
+            <div class="copy-right">
+                <p>法律声明</p>
+                <p>阳光准则</p>
+                <p>网站地图</p>
+                <p>粤网文[2017]6138-1456号</p>
+                <p>粤B2-20090059</p>
+                <p>粤公网安备 44030502008569号</p>
+            </div>
+
+            <div class="copy-right" id="copy-right">
+                <p>Copyright © 1998 - 2023 Tencent. All Rights Reserved. </p>
+            </div>
+        </div>
+
+
+
+        <div id="footer-media">
+            <div id="flow-us-media">
+                <p>关注我们</p>
+                <a><img src="image/icon_wechat.png"></a>
+                <a><img src="image/icon_weibo.png"></a>
+                <a><img src="image/icon_twitter.png"></a>
+                <a><img src="image/icon_in.png"></a>
+                <div id="flow-us-line-media"></div>
+            </div>
+
+            <div id="footer-main-container-media">
+                <div id="join-us-media" class="footer-main-content-media" onclick="menuShowJoin()">
+                    <h4>加入我们</h4>
+                </div>
+                <div id="join-us-media-menu" class="footer-main-content-media-menu">
+                    <p>社会招聘</p>
+                    <p>校园招聘</p>
+                    <p>国际招聘</p>
+                </div>
+                <div id="connect-us-media" class="footer-main-content-media" onclick="menuShowConnect()">
+                    <h4>联系我们</h4>
+                </div>
+
+                <div id="connect-us-media-menu" class="
+                ">
+                    <p>客服服务</p>
+                    <p>合作洽谈</p>
+                    <p>腾讯采购</p>
+                    <p>媒体及投资者</p>
+
+                </div>
+
+                <div id="law-information-media" class="footer-main-content-media" onclick="menuShowLaw()">
+                    <h4>法律信息</h4>
+                </div>
+                <div id="law-information-media-menu" class="footer-main-content-media-menu">
+                    <p>法律信息</p>
+                    <p>隐私政策</p>
+                    <p>知识产权</p>
+
+                </div>
+            </div>
+            <div class="copy-right-media">
+                <p>粤网文[2017]6138-1456号</p>
+                <p>粤B2-20090059</p>
+                <p>粤公网安备 44030502008569号</p>
+            </div>
+
+            <div class="copy-right-media" id="copy-right-media">
+                <p>Copyright © 1998 - 2023 Tencent. All Rights Reserved. </p>
+            </div>
+        </div>
+
+
+
+
+
+        <script src="myScript.js"></script>
+        <script src="topMenu.js"></script>
+    </body>
+
+</html>
